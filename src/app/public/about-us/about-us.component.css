@@ -1,0 +1,36 @@
+.demo-btn{
+    display: none;
+}
+
+.text-h2{
+    font-family:  Segoe UI;
+     font-size: 3rem; 
+     line-height: 50px;
+     font-weight: 700;
+    color: #083654;
+    opacity: 1;
+    line-height: 70px;
+    align-self: center;
+  }
+  .text-h3{
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: Segoe UI;
+    color: black;
+    line-height: 70px;
+  }
+  .text-span{
+    color: #026FB6;
+  }
+  .text-p{
+    font-family:  Segoe UI;
+     font-size: 22px;
+     line-height: 30px;
+  }
+  .group-main{
+    color: white;
+    padding: 20px;
+  }
+  .banner-bg{
+    background: #083654 0% 0% no-repeat padding-box;
+  }

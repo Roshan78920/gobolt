@@ -1,0 +1,294 @@
+
+/* .main-wrapper{
+  width: 1400px;
+} */
+
+.main-ware{
+background-color: #F4F4F4;
+background-size: 100%;
+width: 90%;
+height: 80vh;
+margin: auto;
+}
+
+.warehouse{
+    /* background-image: url(/assets/image/main.png); */
+  
+    height: 100vh;
+    padding: 20px 40px 100px 40px;
+    background-position: top 23% right 0px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.warehouse span::before{
+  content: '';
+  animation: animate infinite 8s;
+  animation-duration: 4s;
+
+}
+@keyframes animate{
+  20%{
+    content: 'ROI';
+  }
+  50%{
+    content: 'Efficiency';
+  }
+}
+
+.demo-btn{
+    width: 274px;
+   height: 53px;
+ font-size: 18px;
+ background: transparent linear-gradient(270deg, #F7931E 0%, #FDBD72 100%) 0% 0% no-repeat padding-box;
+  border-radius: 9px;
+ color: white;
+  margin-top: -5px;
+    position: relative;
+    margin-right: 30px;
+    text-align: center;
+font-family: 'Cabin';
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+font-family:  Segoe UI;
+}
+.hero{
+  height: 90vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    
+}
+.text-h2{
+    font-family:  Segoe UI;
+     font-size: 3rem; 
+     line-height: 50px;
+     font-weight: 700;
+    color: #083654;
+    opacity: 1;
+    line-height: 70px;
+}
+.text-h3{
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: Segoe UI;
+    color: black;
+    line-height: 70px;
+}
+.text-span{
+    color: #026FB6;
+}
+.text-p{
+    font-family:  Segoe UI;
+     font-size: 22px;
+     line-height: 50px;
+}
+.banner-main{
+    background: #ffffff;
+    height: 600px;
+    position: relative;
+}
+.rectangle-509{
+    background-color: #FFFFFF;
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+    border-radius: 40px;
+    height: 620px;
+    width: 76%;
+    padding: 20px;
+    margin: auto;
+    
+    
+}
+.hr-line{
+    background: #ff8100;
+    opacity: 1.25;
+    border-radius: 5px;
+    height: 5px;
+    width: 200px;
+    margin: auto;
+}
+
+.logo-list{
+    place-content: center;
+    text-align-last: center;
+    align-items: center;
+    padding: 50px;
+}
+/* group-323 */
+.group-323{
+    height: 732px;
+    padding: 30px;
+        background: #083654 0% 0% no-repeat padding-box;
+        position: relative;
+}
+.group-323-content p{
+    font-family:  Segoe UI;
+}
+
+/* ............../ */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
+
+.solution-area .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  
+}
+
+.solution-area .container .card {
+  position: relative;
+  min-width: 290px;
+  height: 360px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+}
+
+.solution-area .container .card:nth-child(1) .box .content a {
+  background: #2196f3;
+}
+
+.solution-area .container .card:nth-child(2) .box .content a {
+  background: #e91e63;
+}
+
+.solution-area .container .card:nth-child(3) .box .content a {
+  background: #23c186;
+}
+
+.solution-area .container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #083654;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.solution-area .container .card .box:hover {
+  transform: translateY(-50px);
+}
+
+.solution-area .container .card .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.solution-area .container .card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+
+.solution-area .container .card .box .content h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.solution-area .container .card .box .content h3 {
+  font-size: 1.3rem;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+ 
+}
+
+.solution-area .container .card .box .content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+  text-align: inherit;
+}
+
+.solution-area .container .card .box .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.solution-area .container .card .box .content a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
+
+
+/* slider........startt */
+.slider{
+    border-radius: 25px;
+}
+
+/* .carousel-control-prev ,.carousel-control-next{
+    top: 270px;
+}
+.carousel-indicators{
+    top: 500px;
+} */
+
+/* .rectangle-648{
+    width: 960px;
+} */
+
+
+/* accordion start */
+.button-clpd{
+
+    height: 55px;
+    min-width: 120px;
+    max-width: 200px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 2px solid #F7931E;
+border-radius: 40px;
+}
+.accordion p,li{
+  font-family:  Segoe UI;
+}
+.industry-area p,h4,li{
+  font-family:  Segoe UI;
+  color: #1B1B1B;
+}
+@media (min-width: 500px) and (max-width: 767px) { 
+.group-323{
+  height: 1040px;
+   }
+
+ }
+ @media (min-width: 320px) and (max-width: 500px) { 
+  .group-323{
+    height: 1280px;
+     }
+    }

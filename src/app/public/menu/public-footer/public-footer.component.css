@@ -1,0 +1,165 @@
+.section-p1{
+    background-image: url(/assets/image/footer/Group\ 101.png);
+    
+    
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    
+}
+.logo{
+    
+    /* filter: invert(99%) sepia(0%) saturate(503%) hue-rotate(273deg) brightness(117%) contrast(101%); */
+   filter:  invert(40%) sepia(55%) saturate(0%) hue-rotate(275deg) brightness(138%) contrast(140%);
+}
+.text-h2{
+    
+    color: white;
+    font: normal normal 300 17px/39px Bahnschrift;
+}
+.text-h3{
+    font: normal normal normal 17px/26px Bahnschrift;
+    color: #ffffff;
+}
+.text-p{
+    font: normal normal normal 14px/25px Bahnschrift;
+    color: #c9bebe;
+}
+.footer p{
+    font-size: 15px;
+    color: white;
+    font: normal normal 300 17px/26px Bahnschrift;
+}
+.footer a{
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 24px;
+    color: white;
+    font: normal normal 300 17px/26px Bahnschrift;
+}
+.footer .follow{
+    margin-top: 20px;
+}
+.footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+.footer .copyright .row{
+    border: 1px solid #088178;
+    border-radius: 6px;
+
+}
+.footer .install img{
+    margin: 10px 0 15px 0;
+
+}
+.footer .follow i:hover,
+.footer a:hover {
+ color: #088178;
+}
+.footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+.links a{
+    display: block;
+}
+
+/* footer-form */
+
+.card {
+    padding: 30px 40px;
+    color: white;
+    margin-bottom: 60px;
+    border: 3px solid   #e68207;
+    /* background-color: #051d49; */
+    background-color: rgba(0,0,0, 0.2);
+    border-radius: 0px 0px 0px 70px;
+}
+.form-card input{
+    border-radius: 0px 0px 0px 20px !important;
+}
+.blue-text {
+    color: #00BCD4
+}
+
+.form-control-label {
+    margin-bottom: 0
+}
+
+input,
+textarea,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400
+}
+
+.btn-block {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer
+}
+
+.btn-block:hover {
+    color: #fff !important
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+.submit-btn{
+    width: 165px;
+    height: 40px;
+    background: transparent linear-gradient(270deg, #F7931E 0%, #FDBD72 100%) 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+.meto-bg{
+    width: 250px;
+height: 90px;
+/* UI Properties */
+background-color: rgba(0,0,0, 0.2);
+border: 1px solid #707070;
+color: white;
+}
+.meto-bg span{
+    inline-size: max-content;
+}
+
+@media (min-width: 300px) and (max-width: 991.98px) {
+    .meto-bg{
+        width: 100%;
+    }
+}
