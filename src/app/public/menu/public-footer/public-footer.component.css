@@ -1,9 +1,12 @@
 .section-p1{
     background-image: url(/assets/image/footer/Group\ 101.png);
-    
-    
+    width: 84%;
+    margin: auto;
+    background-repeat: no-repeat;
 }
-
+.box-container{
+    width: 85%;
+}
 .footer {
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +18,8 @@
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
-    
+    text-align: center;
+    justify-content: center;
 }
 .logo{
     
